@@ -16,7 +16,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
-public class GroupController
+public class GroupController{
 
         private final Logger log = LoggerFactory.getLogger(GroupController.class);
         private GroupRepository groupRepository;
